@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Soul Beats</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="style/fonts.css">
+<link href="style/style.css" rel="stylesheet">
+<script type="text/javascript" src="js/manager.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="play-wrapper">
+			<img class="cover" src="http://o9vplcp9o.bkt.clouddn.com/CountingStars_cover.jpg">
+		    <audio class="music" controls="true" src="http://o9vplcp9o.bkt.clouddn.com/CountingStars.mp3">
+				   您的浏览器不支持 audio 标签。
+			</audio>
+			<div class="detail">
+				<div class="info">
+					<div class="name">Counting Stars</div>
+					<div class="singer">One Republic</div>
+				</div>
+				<div class="controls">
+					<button class="ply-btn"><i class="icon-play"></i></button>
+					<div class="progressBar"><span class="progress"></span></div>
+					<div class="time"><span class="Ctime">0:00</span>/<span class="Ttime"></span></div>
+					<button class="noVol"><i class="icon-volume-medium"></i></button>
+					<div class="vol"><span class="nowVol"></span></div>
+					<button class="menu"><i class="icon-menu"></i></button>
+				</div>	
+			</div>
+		</div>
+         <div class="mode">
+            <span class="preSongBtn"><i class='icon-backward'></i></span>
+            <span class="nextSongBtn"><i class="icon-forward"></i></span>
+            <span class="playMode"><i class="icon-repeat"></i></span>
+        </div>
+		<div class="list">
+			<ul class="songContainer">
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	window.onload=function(){
+		new Controls({
+			songs:[             
+                    {
+                        src:'http://o9vplcp9o.bkt.clouddn.com/CountingStars.mp3',
+                        name:'Counting Stars',
+                        author:'OneRepublic',
+                        cover:'http://o9vplcp9o.bkt.clouddn.com/CountingStars_cover.jpg'
+                    },
+                     {
+                        src:'http://o9vplcp9o.bkt.clouddn.com/Solitude.mp3',//音乐文件，必填
+                        name:'Solitude',//歌曲名称，必填
+                        author:'Re:plus',//歌手，必填
+                        cover:'http://o9vplcp9o.bkt.clouddn.com/Solitude_cover.jpg'//专辑封面，必填
+                    },
+                    {
+                        src:'./music/kmh.mp3',
+                        name:'昆明湖',
+                        author:'后弦',
+                        cover:'./cover/kmh.jpg'
+                    },
+                    {
+                        src:'./music/rosy.mp3',
+                        name:'Rosy',
+                        author:'方大同',
+                        cover:'./cover/rosy.jpg'
+                    },
+                    {
+                        src:'./music/maps.mp3',
+                        name:'Maps',
+                        author:'Maroon 5',
+                        cover:'./cover/maps.jpg'
+                    },
+                    {
+                        src:'./music/cfc.mp3',
+                        name:'春风吹',
+                        author:'方大同',
+                        cover:'./cover/cfc.jpg'
+                    },
+                    {
+                        src:'./music/wkll.mp3',
+                        name:'乌可里里',
+                        author:'刘瑞琦',
+                        cover:'./cover/wkll.jpg'
+                    }
+                ]
+		});
+	}
+</script>
