@@ -200,11 +200,10 @@
             this.animate(this.progress, {width: length});
             this.music.currentTime = this.music.duration * scaling;
         },
-        changeSong(index){
+        changeSong(index){//与vue不一致
             this.songIndex = index;
             this.music.pause();
             this.music.src = this.songs[index].src;
-            this.music.play();
             this.cover.setAttribute('src', this.songs[index].cover);
             this.songName.innerHTML = this.songs[index].name;
             this.author.innerHTML = this.songs[index].author;
@@ -253,7 +252,6 @@
             this.changeSong(this.songIndex);
         },
         changeMode(){
-            this.music.loop = false;
             if (this.modeFlag === 0) {
                 this.modeFlag = 1;
                 this.oneCircle();
