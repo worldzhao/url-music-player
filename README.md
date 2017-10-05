@@ -1,9 +1,8 @@
 ### SoulBeats本地播放器
 
->
-项目地址：https://github.com/hackerwen/SoulBeats
-预览地址：http://blog.hackerwen.tech/SoulBeats/
-界面参考：https://github.com/wangpengfei15975/skPlayer?utm_source=tuicool&utm_medium=referral
+* 项目地址：https://github.com/hackerwen/SoulBeats
+* 预览地址：http://blog.hackerwen.tech/SoulBeats/
+* 界面参考：https://github.com/wangpengfei15975/skPlayer?utm_source=tuicool&utm_medium=referral
 
 暂停界面：
 ![image.png](http://upload-images.jianshu.io/upload_images/4869616-86d09dc68110cfdd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -33,8 +32,6 @@
 
 ![入口配置.png](http://upload-images.jianshu.io/upload_images/4869616-8cc01a867c27e212.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-如果喜欢请给一颗star 过几天用尝试用vue重构写在线版
->项目地址：https://github.com/hackerwen/SoulBeats
 
-[vue在线音乐播放器[仿网易云音乐]](https://github.com/hackerwen/Netease-Music-of-Vue)
-[点我预览](http://blog.hackerwen.tech/Netease-Music-of-Vue/#/playlist)
+* [vue在线音乐播放器[仿网易云音乐]](https://github.com/hackerwen/Netease-Music-of-Vue)
+* [点我预览](http://blog.hackerwen.tech/Netease-Music-of-Vue/#/playlist)
