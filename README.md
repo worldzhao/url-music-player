@@ -1,5 +1,7 @@
 ### SoulBeats本地播放器
 
+test
+
 * 项目地址：https://github.com/hackerwen/SoulBeats
 * 预览地址：http://blog.hackerwen.tech/SoulBeats/
 * 界面参考：https://github.com/wangpengfei15975/skPlayer?utm_source=tuicool&utm_medium=referral
