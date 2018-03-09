@@ -1,7 +1,7 @@
 ### SoulBeats本地播放器
 
-* 项目地址：https://github.com/hackerwen/SoulBeats
-* 预览地址：http://blog.hackerwen.tech/SoulBeats/
+* 项目地址：https://github.com/worldzhao/url-music-player
+* 预览地址：https://worldzhao.github.io/url-music-player/
 * 界面参考：https://github.com/wangpengfei15975/skPlayer?utm_source=tuicool&utm_medium=referral
 
 暂停界面：
@@ -10,11 +10,8 @@
 播放界面：
 ![image.png](http://upload-images.jianshu.io/upload_images/4869616-bd63b802a15a4da9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+基础练习
 
-最近想用Vue写一个网页播放器，但是一直没有找到好用的api，室友正在研究网易云api转发，过几天应该就能弄出来啦。
-自己就干脆练练原生js，参照了上面那位同学的界面（配色以及布局）写出了这个播放器。
-主要是html5的audio标签控件的重写。
-等室友api弄好啦就用vue重构弄成在线的播放器。
 技术：
 1. Html
 2. Css
@@ -26,12 +23,8 @@
 3. html5 audio控件重写
 
 使用方法：
-1.js入口处配置歌曲列表json生成列表（音乐外链折腾了我很久，室友通过api加密转发弄出了网易云的外链，但是貌似链接有时间限制，坑，用毕竟静态页面，还是有很多不足，目前选择的是七牛云服务）
+1.js入口处配置歌曲列表json生成列表
 
 >七牛云音乐外链生成教程：http://jingyan.baidu.com/article/f54ae2fc34c9d41e92b849af.html
 
 ![入口配置.png](http://upload-images.jianshu.io/upload_images/4869616-8cc01a867c27e212.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-* [vue在线音乐播放器[仿网易云音乐]](https://github.com/hackerwen/Netease-Music-of-Vue)
-* [点我预览](http://blog.hackerwen.tech/Netease-Music-of-Vue/#/playlist)
